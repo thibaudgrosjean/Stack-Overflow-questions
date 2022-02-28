@@ -5,11 +5,6 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.probability import FreqDist
 from nltk.tokenize import word_tokenize
-nltk.download('wordnet')
-nltk.download('stopwords')
-nltk.download('omw-1.4')
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
 from bs4 import BeautifulSoup as bs
 import re
 

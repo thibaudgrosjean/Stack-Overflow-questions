@@ -1,3 +1,5 @@
 uvicorn main:app --reload --workers 1 --host 0.0.0.0 --port 8008
 
 curl --header "Content-Type: application/json" --data '{"title":"how to use if else in python", "body":"hi I would like to use the if else python statement to make a http request"}' --request POST http://localhost:8008/predict
+
+curl --header "Content-Type: application/json" --data '{"title":"how to use if else in python", "body":"hi I would like to use the if else python statement to make a http request"}' --request POST https://stackoverflow-questions.herokuapp.com/predict
