@@ -2,4 +2,4 @@ uvicorn main:app --reload --workers 1 --host 0.0.0.0 --port 8008
 
 curl --header "Content-Type: application/json" --data '{"title":"how to use if else in python", "body":"hi I would like to use the if else python statement to make a http request"}' --request POST http://localhost:8008/predict
 
-curl --header "Content-Type: application/json" --data '{"title":"how to use if else in python", "body":"hi I would like to use the if else python statement to make a http request"}' --request POST https://stackoverflow-questions.herokuapp.com/predict
+curl --header "Content-Type: application/json" --data '{"title":"Getting perforce CL using shell script", "body":"Working on an assignment to have a duel play out amongst three players with varying accuracy and needs them to shoot in order. Aaron has an accuracy of 1/3, Bob has an accuracy of 1/2, and Charlie never misses. A duel should loop until one is left standing. Here is my code so far and it only ever causes the first two players to miss and Charlie wins even when the random number generator should constitute a hit."}' --request POST https://stackoverflow-questions.herokuapp.com/predict
