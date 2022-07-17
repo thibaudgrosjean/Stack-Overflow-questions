@@ -1,15 +1,12 @@
-# Stack-Overflow-questions
+# StackOverflow
 
-Lien GitHub : https://github.com/thibaudgrosjean/Stack-Overflow-questions
+## Presentation
 
-Dans ce projet, nous avons mis en place un algorithme de suggestion de tags pour *StackOverflow*.
+In this project, we will implement a tags recommendation system for StackOverflow questions. StackOverflow is a reknown platform for questions and answers about programmation.
 
-Nous avons :
-* Extrait les données afin de constituer un jeu de données,
-* Appliqué un prétraitement des données textuelles,
-* Exploré le jeu de données afin de nous l’approprier,
-* Appliqué une transformation des données afin d’entraîner les modèles,
-* Entrainé des modèles de machine learning,
-* Comparé et sélectionné le modèle le plus approprié.
+In the first notebook, we will extract the required data using the StackExchange data explorer tool, and explore the data.
+In the second notebook, we will implement various machine learning algorithms and select the suitable inference model to deploy an API endpoint
 
-Pour la modélisation, nous avons mis en œuvre des approches supervisées, et non supervisées. Nous avons mis un endpoint d’API à disposition afin de permettre au public d’obtenir des predictions (suggestions de tags).
+## Data
+
+The StackExchange data explorer can be use to extract information from the SQL database: [stackexchange.com](https://data.stackexchange.com/stackoverflow/query/new). Information about the database schema can be found at: [stackexchange.com](https://meta.stackexchange.com/questions/2677/database-schema-documentation-for-the-public-data-dump-and-sede)
